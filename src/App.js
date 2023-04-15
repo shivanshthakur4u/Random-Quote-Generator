@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
-import Bookmarks from "./Pages/Bookmarks";
+import Bookmarks from "./Pages/BookmarkPage";
 
 const App = () => {
   return (

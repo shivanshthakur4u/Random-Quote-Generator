@@ -18,7 +18,7 @@ const BookmarkPage = () => {
       {bookmarks.length > 0 ? (
         <BookmarkList bookmarks={bookmarks} />
       ) : (
-        <h3 style={{textAlign:"center", marginTop:"200px"}}>No bookmarks yet!</h3>
+        <h2 style={{textAlign:"center", marginTop:"200px", color:"#E90064"}}>No bookmarks yet!</h2>
       )}
     </div>
   );
