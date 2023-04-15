@@ -1,0 +1,183 @@
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.card {
+    max-width: 450px;
+    min-height: 250px;
+    padding: 30px;
+    border-radius: 13px;
+    box-sizing: border-box;
+    color: #fbfbfd;
+    margin: 20px;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    backdrop-filter: blur(90px);
+    background-color: rgba(255, 255, 255, 0.2);
+    /* box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px, rgb(0 0 0 / 30%) 0px 18px 36px -18px; */
+}
+
+.card-content {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+
+.card-author {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.card-content::after {
+    content: "\201D";
+    display: inline;
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+}
+
+.card-content::before {
+    content: "\201C";
+    font-size: 25px;
+    display: inline;
+    color: #ffffff;
+}
+
+
+/* all page  button common css */
+
+.card-btn {
+    all: unset;
+    display: flex;
+    margin-left: auto;
+    border: 2px solid #FFF;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: 600;
+    transition: all 0.5s;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-btn:hover {
+    color: #02b875;
+    background: #FFF;
+}
+
+.card-btn,
+svg {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+
+/* Home Page Button css */
+
+button {
+    margin-top: 18px;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+button:active {
+    transform: translateY(-1px);
+}
+
+
+/* Dropdown css */
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown select {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+.dropdown select option {
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+@media screen and (max-width: 991px) {
+    .dropdown select {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .dropdown select {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .dropdown select {
+        font-size: 10px;
+    }
+    .dropdown {
+        flex-direction: column;
+        align-items: center;
+    }
+    .dropdown select option {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #f1f1f1;
+        border: none;
+        border-radius: 4px;
+        padding: 8px 12px;
+        font-size: 16px;
+        z-index: 1;
+        margin-top: 4px;
+    }
+    .dropdown select:focus {
+        outline: none;
+    }
+}
+
+#tag-select {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    display: block;
+    width: 200px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #273342;
+    line-height: 60px;
+    background: #f5f5f5;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

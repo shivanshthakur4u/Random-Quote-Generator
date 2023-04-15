@@ -1,12 +1,18 @@
-import HomePage from '../Components/HomePage';
-import './App.css';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from "./Pages/Home";
+import Bookmarks from "./Pages/Bookmarks";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <HomePage/>
-    </div>
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route exact path="/bookmarks" element={<Bookmarks />} />
+    </Routes>
   );
-}
+};
 
 export default App;
+
+
+

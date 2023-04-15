@@ -1,0 +1,5 @@
+export const SET_QUOTE = "SET_QUOTE";
+export const SET_IS_LOADING = "SET_IS_LOADING";
+export const SET_BOOKMARKS = "SET_BOOKMARKS";
+export const ADD_BOOKMARK = "ADD_BOOKMARK";
+export const REMOVE_BOOKMARK = "REMOVE_BOOKMARK";
