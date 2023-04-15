@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Homepage.css";
+import "../Styles/Homepage.css";
 const Card = ({ quote, author, page , action, onRemoveBookmark}) => {
   const [handleButton, setHandleButton] = useState(true);
   return (

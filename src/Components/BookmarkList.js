@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { removeBookmark } from "../redux/actions";
 import Card from "./Card";
-import "./Homepage.css";
+import "../Styles/Homepage.css";
 const BookmarkList = ({ bookmarks }) => {
   const dispatch = useDispatch();
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./Homepage.css";
+import "../Styles/Homepage.css";
 
 const TagList = ({ onSelect }) => {
   const [tags, setTags] = useState([]);

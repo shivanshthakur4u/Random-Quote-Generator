@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { getRandomQuote, getRandomQuoteByTag,addBookmark, getBookmarks } from "../redux/actions";
 import TagList from "./TagList";
 import Loader from './Loader';
-import './Homepage.css';
+import '../Styles/Homepage.css';
 import "../index.css";
 import Card from "./Card";
 const HomePage = () => {
