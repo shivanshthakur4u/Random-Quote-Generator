@@ -8,6 +8,7 @@ import Loader from './Loader';
 import '../Styles/Homepage.css';
 import "../index.css";
 import Card from "./Card";
+import Navbar from "./Navbar";
 const HomePage = () => {
   const dispatch = useDispatch();
   const quote = useSelector((state) => state.quote);
@@ -54,6 +55,7 @@ const HomePage = () => {
 
   return (
     <div className="wrapper">
+    <Navbar/>
     <h1>Random Quote Generator</h1>
      {isLoading ? (
   <Loader/>

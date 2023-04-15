@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getBookmarks } from "../redux/actions";
 import BookmarkList from "../components/BookmarkList";
+import Navbar from "../components/Navbar";
 
 const BookmarkPage = () => {
   const dispatch = useDispatch();
@@ -14,6 +15,7 @@ const BookmarkPage = () => {
 
   return (
     <div>
+    <Navbar/>
       <h1>Bookmarks</h1>
       {bookmarks.length > 0 ? (
         <BookmarkList bookmarks={bookmarks} />

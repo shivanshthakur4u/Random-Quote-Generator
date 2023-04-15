@@ -1,3 +1,5 @@
+/* Card Css starts here */
+
 h1 {
     text-align: center;
     color: #ffffff;
@@ -46,6 +48,9 @@ h1 {
 }
 
 
+/* Card Css Ends  here */
+
+
 /* all page  button common css */
 
 .card-btn {
@@ -76,7 +81,10 @@ svg {
 }
 
 
-/* Home Page Button css */
+/* all page  button common css Ends Here */
+
+
+/* Home Page Button css start here */
 
 button {
     margin-top: 18px;
@@ -107,7 +115,10 @@ button:active {
 }
 
 
-/* Dropdown css */
+/* Home Page Button css ENDS here */
+
+
+/* Dropdown css Starts Here*/
 
 .dropdown {
     display: flex;
@@ -182,3 +193,6 @@ button:active {
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+/* Dropdown css Starts Here*/
