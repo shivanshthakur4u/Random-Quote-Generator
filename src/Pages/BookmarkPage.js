@@ -2,8 +2,8 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getBookmarks } from "../redux/actions";
-import BookmarkList from "../components/BookmarkList";
-import Navbar from "../components/Navbar";
+import BookmarkList from "../Components/BookmarkList";
+import Navbar from "../Components/Navbar";
 const BookmarkPage = () => {
   const dispatch = useDispatch();
   const bookmarks = useSelector((state) => state.bookmarks);
